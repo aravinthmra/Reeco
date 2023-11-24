@@ -1,9 +1,7 @@
-import OrderScreen from './components/OrderScreen/OrderScreen.js';
-import './App.css';
+import OrderScreen from "./components/OrderScreen";
+import "./App.css";
 
-let specialBG = ""
-
-
+let specialBG = "";
 
 const App = () => {
   return (
@@ -11,6 +9,6 @@ const App = () => {
       <OrderScreen />
     </div>
   );
-}
+};
 
 export default App;

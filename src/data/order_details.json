@@ -5,7 +5,7 @@
     "brand": "Organic Farms",
     "price": 12.99,
     "quantity": 50,
-    "status": ""
+    "status": "Approved"
   },
   {
     "id": "2b3c4d5e-6789-01gh-ijkl-mnopqrstuvw",
@@ -13,7 +13,7 @@
     "brand": "Farm Fresh Delights",
     "price": 11.49,
     "quantity": 25,
-    "status": ""
+    "status": "Missing"
   },
   {
     "id": "3c4d5e6f-7890-12ij-klmn-opqrstuvwx",
@@ -21,7 +21,7 @@
     "brand": "Prime Poultry",
     "price": 13.99,
     "quantity": 5,
-    "status": ""
+    "status": "Urgent"
   },
   {
     "id": "4d5e6f7g-8901-23kl-mnop-qrstuvwxy1",

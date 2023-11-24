@@ -1,0 +1,124 @@
+.order-item-container {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+}
+.table-cell {
+  flex: 1;
+  padding: 0;
+}
+.expanded-column {
+  flex: 2;
+}
+.product-name-image-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-image1 {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.status-cta-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin: 0;
+  height: 100%;
+}
+.current-status {
+  flex-grow: 1;
+  color: #fff;
+  padding: 6px 6px;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 12px 0 0;
+}
+.hide-status {
+  display: block;
+  visibility: hidden;
+}
+.tick-image,
+.cross-image {
+  width: 22px;
+  height: 22px;
+  margin: 0 4px;
+}
+.edit-button,
+.button1 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.button1:hover {
+  background-color: #ececec;
+}
+.button2 {
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.button2:hover {
+  background-color: #f66d44;
+  color: #fff;
+}
+.button3:hover {
+  background-color: #db2114;
+}
+.approved {
+  background-color: #3dca72;
+}
+.missing {
+  background-color: #f66d44;
+}
+.urgent {
+  background-color: #db2114;
+}
+.modal {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+}
+.modal-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.modal-heading1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.modal-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
